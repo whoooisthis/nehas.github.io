@@ -125,7 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Market Research',
+    'Customer Relationship Management (CRM)',
+    'CX Strategy',
+    'SEO',
+    'Brand Storytelling',
+    'B2B & B2C Marketing',
+    'Data Analysis',
+    'Creative Problem Solving',
+    'Cross-functional Collaboration',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +145,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              With a core specialization in Creative Strategy and Customer Experience, I currently
+              shape customer-first solutions for B2B and B2C segments at American Express, where I
+              help elevate brand impact through data-driven insights and market research.
+              Previously, I have driven impactful marketing and CRM initiatives at global firms like
+              JP Morgan and Thomas Cook, where I honed my expertise in crafting strategies that
+              resonate with diverse audiences. My career has been defined by blending creativity
+              with analytics to solve business problems and enhance customer journeys across
+              industries. Beyond the professional world, I am a part-time traveler who loves
+              exploring new cultures and destinations, always seeking fresh perspectives to fuel my
+              creativity.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.americanexpress.com/en-in/">American Express</a>,{' '}
+              <a href="https://www.jpmorgan.com/global">JP Morgan</a>,{' '}
+              <a href="https://www.thomascook.in/">Thomas Cook</a>, and <a href="abc">A company</a>
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>My skills are not limited to this list!</p>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +176,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -59,29 +59,31 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = <h1>Hi Namaste, My Name is</h1>;
+  const two = <h2 className="big-heading">Neha Mahesh Shirke.</h2>;
+  const three = <h3 className="medium-heading">Digital Marketing | Traveler</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        <b>तुमची ओळख करून आनंद झाला! Glad to meet you!</b>
+      </p>
+      <p>
+        I am Neha Shirke, a Creative Strategist driving customer-centric solutions across B2B and
+        B2C landscapes at at{' '}
+        <a href="https://www.americanexpress.com/en-in/" target="_blank" rel="noreferrer">
+          American Express
         </a>
-        .
+        . With a strong foundation in market research and CRM, I craft strategies that elevate
+        customer experiences and fuel business growth.
+        <br></br>When I’m not shaping brand narratives, you’ll find me exploring design trends,
+        diving into consumer behavior insights, or traveling to new places to spark fresh creative
+        ideas.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href="abc" target="_blank" rel="noreferrer">
+      Check out my resume!
     </a>
   );
 
